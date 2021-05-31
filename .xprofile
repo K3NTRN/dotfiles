@@ -1,0 +1,21 @@
+picom -f &
+
+feh --bg-scale /home/ken/Pictures/archgrub2.png
+
+redshift -P -O 2700
+
+exec slstatus &
+
+dunst &
+
+discord-ptb &
+
+element-desktop &
+
+brave &
+
+flameshot &
+
+while true; do
+        dwm >/dev/null 2>&1
+done
